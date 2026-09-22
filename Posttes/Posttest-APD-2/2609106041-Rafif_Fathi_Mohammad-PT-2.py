@@ -13,12 +13,13 @@ harga_makanan = [makanan_1, makanan_2, makanan_3, makanan_4, makanan_5, makanan_
 total_bayar = makanan_1 + makanan_2 + makanan_3 + makanan_4 + makanan_5 + makanan_6 + biaya_aplikasi
 
 rata_rata = total_bayar / len(harga_makanan)
+rata_rata = round(rata_rata, 2)
 
 nim = 41
 
 bolean = nim != rata_rata
 
-kurs_eur = 19000
+kurs_eur = 20000
 total_euro = total_bayar / kurs_eur
 total_euro = round(total_euro, 2)
 

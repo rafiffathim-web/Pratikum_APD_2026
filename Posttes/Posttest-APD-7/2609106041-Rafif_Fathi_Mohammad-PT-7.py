@@ -498,3 +498,5 @@ except (KeyboardInterrupt, EOFError):
     print("\nProgram dihentikan oleh pengguna.")
 finally:
     print("Sesi program selesai.")
+
+# selesai
